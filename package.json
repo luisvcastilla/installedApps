@@ -1,0 +1,39 @@
+{
+  "name": "cordova-plugin-installedapps",
+  "version": "1.0.0",
+  "description": "Cordova Installed Apps",
+  "cordova": {
+    "id": "cordova-plugin-installedapps",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luisvcastilla/installedApps"
+  },
+  "bugs": {
+    "url": "https://github.com/luisvcastilla/installedApps"
+  },
+  "keywords": [
+    "cordova",
+    "device",
+    "carrier",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-browser"
+  ],
+  "scripts": {
+  },
+  "author": "Apache Software Foundation",
+  "license": "Apache-2.0",
+  "engines": {
+    "cordovaDependencies": {
+      "2.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "devDependencies": {
+  }
+}
