@@ -1,4 +1,4 @@
-package info.quatinus.cordova.plugin;
+package com.sititec.cordova.installedapps;
 
 import org.json.JSONArray;
 import org.json.JSONException;
