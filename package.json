@@ -10,11 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/luisvcastilla/installedApps"
+    "url": "git+https://github.com/luisvcastilla/installedApps.git"
   },
   "bugs": {
-    "url": "https://github.com/luisvcastilla/installedApps"
+    "url": "https://github.com/luisvcastilla/installedApps/issues"
   },
+  "bundleDependencies": false,
+  "deprecated": false,
   "keywords": [
     "cordova",
     "device",
