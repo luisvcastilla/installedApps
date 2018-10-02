@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id="cordova-plugin-installedapps"
+        id="cordova-sititec-plugin-installedapps"
         version="1.0.0">
 
   <name>InstalledApps</name>
   <description>Cordova plugin to list all installed apps on Android device</description>
+  <license>Apache</license>
 
   <engines>
-    <engine name="cordova" version=">=3.4.0"/>
+    <engine name="cordova" version=">=3.0.0"/>
   </engines>
-
-  <asset src="www/installedApps.js" target="js/installedApps.js"/>
 
   <js-module src="www/installedApps.js" name="installedApps">
     <clobbers target="installedApps" />
