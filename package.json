@@ -8,6 +8,7 @@
       "android"
     ]
   },
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/luisvcastilla/installedApps.git"
@@ -15,6 +16,7 @@
   "bugs": {
     "url": "https://github.com/luisvcastilla/installedApps/issues"
   },
+  "homepage": "https://github.com/luisvcastilla/installedApps#readme",
   "bundleDependencies": false,
   "deprecated": false,
   "keywords": [
