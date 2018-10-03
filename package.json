@@ -1,30 +1,29 @@
 {
   "name": "cordova-sititec-plugin-installedapps",
   "version": "1.0.0",
-  "description": "Cordova Installed Apps",
-  "main": "index.js",
+  "description": "Cordova Installed Apps Plugin",
+  "cordova": {
+    "id": "com.sititec.cordova.installedapps",
+    "platforms": [
+      "android"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/luisvcastilla/installedApps.git"
   },
-  "bugs": {
-    "url": "https://github.com/luisvcastilla/installedApps/issues"
-  },
-  "homepage": "https://github.com/luisvcastilla/installedApps#readme",
-  "bundleDependencies": false,
-  "deprecated": false,
   "keywords": [
     "cordova",
     "device",
-    "carrier",
+    "account",
+    "email",
     "ecosystem:cordova",
-    "cordova-android",
-    "cordova-browser"
+    "cordova-android"
   ],
-  "scripts": {
+  "author": "luisvcastilla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luisvcastilla/installedApps/issues"
   },
-  "author": "Apache Software Foundation",
-  "license": "Apache-2.0",
-  "devDependencies": {
-  }
+  "homepage": "https://github.com/luisvcastilla/installedApps#readme"
 }

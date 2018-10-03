@@ -1,23 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-sititec-plugin-installedapps"
         version="1.0.0">
 
-  <name>InstalledApps</name>
-  <description>Cordova plugin to list all installed apps on Android device</description>
-  <license>Apache</license>
+  <description>Installed Apps Plugin</description>
+  <license>MIT</license>
+  <keywords>cordova,installedapps</keywords>
+  <repo>https://github.com/luisvcastilla/installedApps.git</repo>
+  <issue>https://github.com/luisvcastilla/installedApps/issues</issue>
 
-  <engines>
-    <engine name="cordova" version=">=3.0.0"/>
-  </engines>
-
-  <js-module src="www/installedApps.js" name="installedApps">
-    <clobbers target="installedApps" />
+  <js-module src="www/InstalledApps.js" name="InstalledApps">
+    <clobbers target="window.InstalledApps" />
   </js-module>
-
+  
+  <!-- android -->
   <platform name="android">
-
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="InstalledApps">
         <param name="android-package" value="com.sititec.cordova.installedapps.InstalledApps"/>
